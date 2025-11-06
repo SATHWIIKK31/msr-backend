@@ -1,0 +1,16 @@
+{
+  "name": "fsproject",
+  "version": "1.0.0",
+  "description": "backend",
+  "license": "ISC",
+  "author": "msr",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
